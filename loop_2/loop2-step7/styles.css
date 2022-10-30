@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(181, 255, 248);
+    font-family: Roboto, sans-serif;
+    overflow-y: hidden;
+}
+
+#inner-div {
+    display: flex;
+    margin: 5% auto;
+    width: 70%;
+    background: white;
+    /* justify-content: space-between; */
+}
+
+
+#bg-img {
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center center;
+    flex: 2;
+    color: white;
+   backdrop-filter: opacity(0.5); 
+}
+
+.press {
+margin: 45% auto;
+width: 60%;
+}
+
+.press p {
+    margin-top: 0.8rem;
+}
+
+.btn {
+    margin-top: 1.5rem;
+color: white;
+    border: none;
+    border-radius: 35px;
+    background: rgb(113, 197, 189);
+    opacity: 0.8;
+    padding: 0.8rem 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(85, 175, 166);
+}
+
+input {
+    border: none;
+    background: none;
+    padding-left: 2rem;
+    color: white;
+}
+
+.file-img {
+    position: absolute;
+    top: 364px;
+    left: 315px;
+}
+
+#articles {
+    flex: 2;
+    padding: 2%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.year {
+    display: flex;
+    padding-top: 2%;
+}
+
+.year p {
+    padding-right: 6%;
+    color: gray;
+    font-weight: 500;
+}
+
+.year p:first-child {
+    color: black;
+}
+
+.year p:last-child {
+    opacity: 0.4;
+}
+
+.year p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.cal-section {
+    margin-top: 10%;
+}
+
+.a{
+    display: flex;
+    margin-bottom: 7%;
+}
+
+.a:last-of-type {
+    margin-bottom: 2%;
+}
+
+.startups {
+    display: flex;
+    justify-content: space-between;
+}
+
+.startups p {
+    margin-top: 4%;
+}
+
+.avatar {
+    width: 2.5rem;
+    margin-right: 0.8rem;
+}
+
+.avatar2, .avatar3 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-top: 0.3rem;
+    margin-right: 1.2rem;
+}
+
+.date {
+    display: flex;
+    margin-left: 5rem;
+   }
+
+.date-1 {
+    font-size: 2rem;
+margin-right: 0.5rem;
+ font-family: 'Courier New', Courier, monospace;
+
+}
+
+.date-2 {
+    font-size: 1.8rem;
+margin-right: 0.8rem;
+margin-left: 1.2rem;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.month {
+    font-size: smaller;
+}
+
+

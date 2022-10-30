@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    margin: 10% auto;
+    width: 25%;
+    background: white;
+    font-family: Roboto, sans-serif;
+    border-radius: 2%;
+}
+
+#dots {
+    padding-top: 4%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+#dots p:nth-of-type(3), #dots p:nth-of-type(2){
+    color: rgb(194, 192, 192);
+}
+
+.payment {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 4% 0 8% 0;
+}
+
+#visa,#mastercard,  #maestro {
+    display: flex;
+    padding: 2% 4%;
+   }
+
+#mastercard  {
+display: flex;
+}
+
+#mastercard .text {
+flex: 2;
+}
+
+.visa-img, .mastercard-img, .maestro-img {
+    width: 20%;
+}
+
+.text {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5% 6%;
+}
+
+
+
+.text:last-child {
+    color: gray;
+}
+
+#cta {
+    display: flex;
+    width: 100%; 
+    background: #5180d8;
+}
+
+.btn {
+    border: none;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 5% 0;
+    background: #4267b2;
+    color: white;
+}
+
+.arrow-img {
+    position: absolute;
+    top: 1;
+    width: 1.2%;
+}
+
+
+
+#visa:hover, #mastercard:hover, #maestro:hover {
+cursor: pointer;
+background: rgb(223, 217, 217);
+
+}
+
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:480px) {
+    .content {
+        width: 75%
+    }
+
+    .arrow {
+        display: none;
+    }
+}

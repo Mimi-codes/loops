@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7cd75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 29rem;
+  width: 52rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+.wallet {
+  background-color: #f2f2f2;
+  overflow-y: scroll;
+}
+.my-wallet {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+.card {
+  cursor: pointer;
+  color: gray;
+  font-weight: 500;
+}
+header {
+  font-size: 25px;
+}
+.v-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  background-color: white;
+  margin: 2.5rem;
+  padding: 0 0 1rem 1rem;
+  border-radius: 5px;
+}
+.v-car {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  background-color: white;
+  margin: 2.5rem;
+  padding: 0 0 1rem 1rem;
+  border-radius: 5px;
+}
+.v-card:hover {
+  border-color: blue;
+}
+.cards {
+  height: 4rem;
+  width: 4rem;
+}
+.card2 {
+  height: 4rem;
+  width: 4rem;
+}
+.details {
+  overflow-y: scroll;
+  cursor: auto;
+}
+.balance {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #dad9da;
+  margin: 1rem 3rem 1rem 3rem;
+  padding-bottom: 1rem;
+}
+
+.currency {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.transaction {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 1rem 2.5rem 1.5rem 3rem;
+}
+.sign {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #dbdadb;
+  margin-top: 1rem;
+  }
+.phone {
+  line-height: 0.2rem;
+/* justify-items: end; */
+flex: 33.3%;
+margin-left: 8%;
+}
+.phone-desc {
+  color: silver;
+  font-size: small;
+}
+.price {
+  padding-top: 1rem;
+  color: #2196f3;
+  font-weight: 2rem bold;
+}
+.prices {
+  padding-top: 1rem;
+  color: #84c657;
+  font-weight: 2rem bold;
+}

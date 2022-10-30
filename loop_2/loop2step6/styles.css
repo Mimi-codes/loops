@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(121, 179, 218);
+    font-family: Roboto, sans-serif;
+overflow-y: hidden;
+}
+
+#calendar {
+    margin: 15% auto;
+    width: 25%;
+    background: white;
+    /* padding: 1rem; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(173, 173, 173);
+    /* padding-bottom: 0.3rem; */
+    padding: 1rem;
+}
+
+#cal-body {
+    padding: 0.8rem 1.3rem;
+}
+
+.days {
+    display: flex;
+    font-weight: 600;
+    color: rgb(143, 143, 143);
+    justify-content: space-between;
+}
+
+.date {
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.a, .b, .c, .d, .e {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.4rem;
+}
+
+.a p:nth-child(1), .a p:nth-child(2), .a p:nth-child(3), .a p:nth-child(4) {
+    color: rgb(221, 218, 218);
+    font-size: 0.6rem;
+}
+
+#cal-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+#cal-footer p:nth-child(2) {
+    border-radius: 50%;
+    border: 2px solid rgb(201, 130, 0);
+    padding: 0.3rem 0.6rem;
+}
+
+.b p:nth-child(4) {
+    border-radius: 50%;
+    background: rgb(201, 130, 0);
+    padding: 0.2rem 0.5rem;
+color: white;
+}
+
+.c p:nth-child(6) {
+    border-radius: 50%;
+    border: 2px solid rgb(201, 130, 0);
+    padding: 0.3rem 0.3rem;
+}
+
+.d p:nth-child(2) {
+    border-radius: 50%;
+    border: 2px solid rgb(175, 18, 175);
+    padding: 0.3rem 0.3rem;
+}
+
+
+.c .super {
+color: white;
+border-radius: 50%;
+background: rgb(201, 130, 0);
+padding: 0.02rem 0.17rem;
+font-size: 0.7rem;
+position: absolute;
+top: 62.5%;
+}
+
+.d .super-1 {
+    color: white;
+    border-radius: 50%;
+    background: rgb(141, 0, 141);
+    padding: 0.02rem 0.17rem;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 71.3%;
+    }
+
+    hr {
+        color:  rgb(175, 175, 175);
+    }

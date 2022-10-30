@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 2 - Challenge 10</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./billsection.css" />
+  <link rel="stylesheet" href="./posts.css" />
+  <link rel="stylesheet" href="./alsoviewed.css" />
+</head>
+<body>
+
+  <!--
+    Ah, it smells like a new challenge!
+
+    This time we build a concept of some job search website.
+    It's more about small details this time and if you haven't yet tried splitting
+    your css into separate component files - that's the perfect time to try.
+    (Use @import in css to achieve that)
+
+    The other gimmick we introduce here is about using font icons instead of inserting images into our code.
+    The easiest out-of-the-box method is to use Google Material Icons,
+    so read about the implementation before you start:
+    https://material.io/icons/
+
+    And good luck!
+  -->
+
+  <!-- nav -->
+  
+  <div id="all">
+    <nav>
+  <div id="nav">
+    <!-- logo -->
+    <img src="./img/logo.png" class="logo-img" alt="logo" />
+    <hr class="rule">
+<!-- <div class="rule"></div> -->
+    <!-- search -->
+<span class="search-icon"><input type="text" placeholder="Search                     &#x1F50E;" class="search"  />
+   
+  <!-- &#x1F50E;include search icon -->
+</span>
+<hr class="rule">
+<!-- home -->
+<div class="home">
+  <a href="#" class="link">Home</a>
+  <a href="#" class="link">Profile</a>
+  <a href="#" class="link">Connections</a>
+  <a href="#" class="link">Interest</a>
+  <a href="#" class="link">Try Premium</a>
+</div>  
+<hr class="rule">
+<!-- message -->
+<div class="message">
+  <a href="#">&#128209;</a>
+  <a href="#">&#128276;</a>
+  <a href="#"><img src="" class="user-img" alt="user" /></a>
+</div>
+<hr class="rule">
+<img src="./img/avatar.jpg" class="avatar-img" alt="avatar" />
+</div>
+
+<!-- posts -->
+<div id="posts">
+  <p><a href="#">Posts</a></p>
+  <p><a href="#">Background</a></p>
+  <p><a href="#">Recommendations</a></p>
+  <p><a href="#">Following</a></p>
+</div>
+</nav>
+
+<!-- main -->
+<div id="main">
+  <!-- bill section -->
+  <div class="bill-section">
+    <div class="bill">
+    <img src="./img/bill-gates-avatar.png" class="bill-avatar-img" alt="bill" />
+    <h4>Bill Gates</h4>
+    <p>Microsoft Founder</p>
+    <p>Greater Seattle Area</p>
+    
+    <!-- bill-button -->
+    <div class="bill-button">
+      <button class="btn-follow" type="button">Follow</button>
+        <input type="button" value="Connect" class="btn-connect"  /> 
+<span>         <!-- include caret down icon -->
+       </span>
+    </div>
+
+    <!-- connections -->
+    <hr>
+    <div class="connection-div">
+    <div class="connect">
+<p>200</p>
+<p>connecti...</p>
+    </div>
+
+    <div class="followers">
+      <p>1.9M</p>
+      <p>followers</p>
+    </div>
+    </div>
+<hr>
+
+<div class="contact">
+<a href="#">linkedin.com/in/billgat...</a>
+<a href="#">billgates.com</a>
+</div>
+<hr>
+<div class="export">
+<a href="#" >Export page as PDF</a>
+</div>  
+</div>
+</div>
+<!-- <hr> -->
+<!-- </div> -->
+<!-- posts section -->
+<div class="posts-section-a">
+  <div class="posts-heading">
+    <h5>POSTS</h5>
+    <div class="carousel-buttons">
+      <button type="button" class="posts-a-btn">&#x2039;</button>
+      <button type="button" class="posts-a-btn">&#x203A;</button>
+    </div>
+  </div>
+  <hr>
+  
+  <div class="posts-a-images">
+  <div class="img-a">
+    <img src="./img/article1.jpg" class="square-img" alt="img" />
+    <a href="#">3 Myths That Confuse <br> Top-Managers</a>
+    <p>February 19, 2016</p>
+  </div>
+  
+  <div class="img-a">
+    <img src="./img/article2.jpg" class="square-img second" alt="img" />
+    <a href="#">How much do we spend <br /> on hot drinks</a>
+    <p>February 19, 2016</p>
+  </div>
+  
+  <div class="img-a">
+    <img src="./img/article3.jpg" class="square-img" alt="img" />
+    <a href="#">Good news you might <br /> have noticed</a>
+    <p>February 19, 2016</p>
+  </div>
+  </div>
+  
+  <!-- background -->
+  <div class="background-div">
+    <div class="background-heading">
+      <h5>BACKGROUND</h5>
+    </div>
+    <hr>
+<!-- summary -->
+
+<div class="summary">
+  <p class="book">&#128209;</p>
+  <div class="summary-text">
+  <p>Summary</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>
+
+<!-- experience -->
+
+<div class="summary">
+  <p class="experience">&#128188;</p>
+  <div class="summary-text">
+  <p>Experience</p>
+  <div class="experience-text">
+   
+    <div class="dev">
+      <div class="lake">      
+        <!-- &#x25CB; -->
+         <p>2000 - PRESENT</p>
+    <p>Co-founder, Chairman</p>
+    <a href="#">Microsoft</a>
+    </div>
+    <img src="./img/logo-microsoft.png" class="microsoft-img" alt="img" />    
+    </div>
+
+    <div class="dev">
+<div class="lake">
+  <!-- &#x25CB;  -->
+  <p>1992 - 1999</p>
+    <p>Senior Developer</p>
+    <a href="#">Youtube</a>
+</div>      
+<img src="./img/logo-youtube.png" class="youtube-img" alt="img" />
+    </div>
+   </div>
+
+</div>
+</div>
+
+
+<div class="summary">
+  <p class="school">&#127968;</p>
+  <div class="summary-text">
+  <p>Education</p>
+  <div class="education-text">
+ <p>1973 - 1975</p>
+ <p>Harvard University</p>
+ <a href="#">BS Computer Science</a>
+ 
+ <p>1960 - 1973</p>
+ <p>Lakeside School, Seattle</p>
+ <p>Lakeside School, Seattle</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="summary">
+  <p class="bulb">&#128161;</p>
+  <div class="summary-text">
+  <p>Skills</p>
+<div class="social">
+  <p class="round">74</p>
+  <p>Social Media Marketing</p>
+
+<img src="./img/avatar.jpg" class="skills-img" alt="img" />
+<img src="./img/avatar2.jpg" class="skills-img" alt="img" />
+<img src="./img/avatar3.jpg" class="skills-img" alt="img" />
+
+  <p class="round-1">71+</p>
+  <p class="round-2">74</p>
+</div>
+
+<div class="social">
+  <p class="round">67</p>
+  <p>Social Media Marketing</p>
+
+<img src="./img/avatar.jpg" class="skills-img" alt="img" />
+<img src="./img/avatar2.jpg" class="skills-img" alt="img" />
+<img src="./img/avatar3.jpg" class="skills-img" alt="img" />
+
+  <p class="round-1">17+</p>
+  <p class="round-2">74</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="summary">
+  <p class="star">&#9733;</p>
+  <div class="summary-text">
+  <p>Interests</p>
+<div class="tech">
+  <p>Wireless Industry</p>
+  <p>Photography</p>
+  <p>Web design</p>
+  <p>Technology</p>
+  <p>Technology</p>
+</div>
+</div>
+</div>
+
+
+
+
+  </div>
+
+
+
+<!-- recommendations -->
+<div class="recommendations">
+  <div class="recommend">
+  <h5>RECOMMENDATIONS</h5>
+  <div class="carousel-buttons">
+    <button type="button" class="posts-a-btn">&#x2039;</button>
+    <button type="button" class="posts-a-btn">&#x203A;</button>
+  </div>
+</div>
+<hr>
+
+<div class="lorem">
+  <div class="a">
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="people">
+      <img src="./img/avatar3.jpg" class="user-img" alt="user" />  
+     <div class="people-text">
+      <p>Steve Jobs</p>
+    <p>Apple</p>
+     </div>
+    </div>
+  </div>
+
+  <div class="a">
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="people">
+      <img src="./img/avatar3.jpg" class="user-img" alt="user" />  
+     <div class="people-text">
+      <p>Mark Zuckerberg</p>
+    <p>Facebook</p>
+     </div>
+    </div>
+  </div>
+
+  <div class="a">
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="people">
+      <img src="./img/avatar3.jpg" class="user-img" alt="user" />  
+     <div class="people-text">
+      <p>Jeffrey Bezos</p>
+    <p>Amazon</p>
+     </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- following -->
+<div class="following">
+  <div class="follow">
+  <h5>FOLLOWING</h5>
+</div>
+<hr>
+
+<div class="lorem">
+  <div class="a">
+    <div class="img-con">
+  <img src="./img/logo-microsoft.png" class="a-img" alt="img" />
+    </div>  
+    <p class="brand">Microsoft</p> 
+    <div class="carousel-buttons">
+      <button type="button" class="a-btn">+</button>
+     <a href="#" class="follow-btn">Follow</a>
+    </div>
+  </div>
+
+  <div class="a">
+    <div class="img-con">
+      <img src="./img/logo-amazon.jpg" class="ama-img" alt="img" />
+  </div>
+      <p class="brand">Amazon</p>
+      <div class="carousel-buttons">
+        <button type="button" class="a-btn">+</button>
+       <a href="#" class="follow-btn">Follow</a>
+      </div>
+  </div>
+
+  <div class="a">
+    <div class="img-con">
+    <img src="./img/logo-microsoft.png" class="a-img" alt="img" />
+    </div>
+    <p class="brand">Microsoft</p>
+    <div class="carousel-buttons">
+      <button type="button" class="a-btn">+</button>
+     <a href="#" class="follow-btn">Follow</a>
+    </div>
+  </div>
+
+  <div class="a">
+    <div class="img-con">
+    <img src="./img/logo-amazon.jpg" class="ama-img" alt="img" />
+  </div>
+
+    <p class="brand">Amazon</p> 
+    <div class="carousel-buttons">
+      <button type="button" class="a-btn">+</button>
+     <a href="#" class="follow-btn">Follow</a>
+    </div>
+  </div>
+
+  
+</div>
+<button type="button" class="all-btn">See all (20)</button>
+</div>
+
+  </div>
+  
+
+
+  <!-- also-viewed-section -->
+<div class="also-viewed">
+  <p class="first-para">PEOPLE ALSO VIEWED</p>
+<div class="people">
+  <img src="./img/avatar.jpg" class="user-img" alt="user" />  
+ <div class="people-text">
+  <p>Sergey Brin</p>
+<p>Google</p>
+ </div>
+</div>
+
+<div class="people">
+  <img src="./img/avatar2.jpg" class="user-img" alt="user" />  
+ <div class="people-text">
+  <p>Jeffrey Bezos</p>
+<p>Amazon</p>
+ </div>
+</div>
+
+<div class="people">
+  <img src="./img/avatar3.jpg" class="user-img" alt="user" />  
+ <div class="people-text">
+  <p>Steve Jobs</p>
+<p>Apple</p>
+ </div>
+</div>
+ 
+
+
+<!-- influencers -->
+<div class="influencers">
+<p class="influencers-para">MORE INFLUENCERS</p>
+<div class="caret">
+  <a href="#" class="left">&#706;</a>
+  <a href="#" class="right">&#707;</a>
+</div>
+<div class="steve">
+<img src="./img/avatar3.jpg" class="steve-img" alt="steve" />
+
+<p>Steve Jobs</p>
+<p>Apple</p>
+</div>
+</div>
+<!-- add carousel buttons -->
+</div>
+
+</div>
+<!-- <hr> -->
+  <!-- fh -->
+  <!-- </div> -->
+</body>
+
+</html>

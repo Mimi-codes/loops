@@ -1,0 +1,95 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(91, 131, 158);
+}
+
+#nav {
+    margin: 1rem auto;
+    width: 30%;
+    margin-top: 8%;
+}
+
+.nav-links {
+background: rgb(102, 100, 100);
+margin: 2%;
+display: flex;
+filter: brightness(60%);
+}
+
+a {
+padding: 4% 7%;
+border-right: 1px solid white;
+}
+
+a:hover {
+    cursor: pointer;
+background: rgb(61, 55, 55);
+}
+
+a:last-child {
+    border-right: none;
+}
+
+
+a:nth-of-type(3) {
+background: black
+}
+
+.nav-img {
+    width: 1.5rem;
+    }
+
+#hero-section {
+    background: white;
+    /* margin: 15% auto; */
+    margin: 0 auto;
+    width: 25%;
+    font-family: Roboto, sans-serif;
+    color: rgb(156, 156, 156);
+    border-radius: 5px;
+
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.2rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(156, 156, 156) ;
+}
+
+.items:hover p:nth-of-type(2) {
+color: #000;
+font-weight: 600;
+}
+
+.items:hover{
+    cursor: pointer;
+}
+
+#location {
+    background-image: url(./img/food.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+background-position: center center;
+border-radius: 5px 5px 0 0;
+height: 11rem;
+backdrop-filter: opacity(1px); 
+}
+
+.location-img {
+    width: 1rem;
+    margin-top: 0.4rem;
+}
+
+.food-text {
+    margin-top: 6rem;
+    color: rgb(255, 255, 255);
+    margin-left: 1.5rem;
+}

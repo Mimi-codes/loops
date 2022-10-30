@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background: rgb(207, 56, 207);
+    color: white;
+}
+
+#main {
+    margin: 10% auto;
+    width: 25%;
+    /* box-shadow: 0 0 0.5em 0.2em rgb(70, 45, 70); */
+}
+
+#photos {
+    background: rgb(156, 12, 156);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem 0.5rem 0.7rem;
+    border-radius: 5px 5px 0 0;
+}
+
+.photos-img, .files-img {
+    display: flex;
+    padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.inner {
+    position: absolute;
+    width: 0.1%;
+    height: 8%;
+    top: 22%;
+    margin-left: 1.15%;
+    background: white;
+}
+
+.vac-a {
+    position: absolute;
+    width: 0.1%;
+    height: 4.7%;
+    top: 38.5%;
+    margin-left: 0.3%;
+    background: rgb(138, 98, 138)
+}
+
+.vac-b {
+    position: absolute;
+    width: 0.1%;
+    height: 2%;
+    top: 47.3%;
+    margin-left: 0.3%;
+    background: rgb(138, 98, 138);
+}
+
+.vac-c {
+    position: absolute;
+    width: 0.1%;
+    height: 2%;
+    top: 52.4%;
+    margin-left: 0.3%;
+    background: rgb(138, 98, 138);
+}
+
+.vac-d {
+    position: absolute;
+    width: 0.1%;
+    height: 3.5%;
+    top: 58%;
+    margin-left: 0.3%;
+    background: rgb(138, 98, 138);
+}
+
+.file-top {
+    position: absolute;
+    width: 0.1%;
+    height: 5%;
+    top: 61.5%;
+    margin-left: 1.23%;
+    background: white;
+}
+
+
+.file-bottom {
+    position: absolute;
+    width: 0.1%;
+    height: 4%;
+    top: 71.4%;
+    margin-left: 1.15%;
+    background: white;
+}
+
+.photo-img, .file-img {
+    background-color: white;
+    padding: 0.3rem;
+    border-radius: 50%;
+   }
+
+   .photo-text, .file-text {
+padding-top: 0.5rem;
+margin-left: 1rem;
+
+/* border-top: 2px solid rgb(177, 173, 173); */
+   }
+
+   #activities {
+    background: rgb(82, 2, 82);
+    padding: 1rem 1rem 1.5rem 1rem;
+   }
+
+   .vacation {
+    padding-left: 1.5rem;
+   }
+
+  .vacation p {
+    margin-top: 1rem;
+   }
+
+   .act-a, .act-b, .act-c {
+    margin-left: 1.5rem;
+    color: wheat;
+   }
+
+   .act-a:hover, .act-b:hover, .act-c:hover {
+    cursor: pointer;
+    color: white;
+   }
+
+   #files {
+    background: rgb(156, 12, 156);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0 0 5px 5px;
+}

@@ -1,0 +1,338 @@
+.posts-section-a {
+    background: white;
+margin-left: 1.4rem;
+width: 45vw;
+height: 54vh;
+}
+
+.posts-heading {
+    display: flex;
+    justify-content: space-between;
+padding: 1rem;
+}
+
+.posts-heading h5 {
+    padding-top: 0.5rem;
+}
+
+.carousel-buttons {
+    display: flex;
+}
+
+.posts-a-btn {
+    color: rgb(56, 102, 202);
+    border-radius: 50%;
+    border: 1px solid rgb(56, 102, 202);
+    padding: 0.1rem 0.5rem;
+    background: none;
+    font-size: 1.5rem;
+}
+.posts-a-btn:last-of-type {
+    margin-left: 0.3rem;
+}
+
+.posts-a-images {
+    margin: 1rem;
+    display: flex;
+}
+
+.img-a {
+    margin-right: 1rem;
+}
+
+.img-a a:first-of-type {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-top: 0.3rem;
+    color: black;
+}
+
+.img-a p:last-of-type {
+    padding-top: 0.3rem;
+    font-size: 0.7rem;
+    color: rgb(197, 197, 197);
+   
+}
+
+.square-img {
+    width: 11.5rem;
+    height: 11.5rem;
+}
+
+.posts-section-b {
+    margin-top: 2.5rem;
+    background: white;
+    /* margin-left: 1rem; */
+width: 45vw;
+height: 54vh;
+}
+
+
+.recommendations {
+    background: white;
+    width: 45vw;
+    height: 54vh;
+    margin-top: 2.5rem;
+}
+
+.recommend {
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lorem {
+    display: flex;
+    padding: 1rem 1.5rem;
+}
+
+p.text:nth-child(1) {
+    margin-right: 1rem;
+}
+
+.text {
+    border: 1px solid rgb(245, 245, 245);
+    padding: 0.8rem 1rem;
+}
+
+.a .user-img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.4rem;
+}
+
+ .background-div {
+    background: white;
+    width: 45vw;
+    /* height: 48vh; */
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.following {
+    background: white;
+    width: 45vw;
+    height: 41vh;
+    margin-top: 2.5rem;
+    margin-bottom: 10rem;
+}
+
+.follow {
+    padding: 1rem 1rem;
+
+}
+
+.a p:first-of-type {
+    font-size: small;
+}
+
+.a-img {
+    width: 8rem;
+    height: 3rem;   
+    padding-top: 0.5rem; 
+}
+
+.img-con {
+    height: 4rem;
+border: 1px solid rgb(236, 236, 236);
+margin-right: 1rem;
+}
+
+.ama-img {
+    width: 5rem;
+    height: 2rem;
+    /* margin: 2% auto; */
+    margin: 1.5rem;
+    /* border: 1px solid gray; */
+    /* padding: 2rem 1.5rem; */
+
+}
+
+.brand{
+    margin-top: 1rem;
+}
+
+.a .carousel-buttons {
+padding-top: 0.3rem;
+}
+
+.a-btn {
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 0.1rem 0.3rem;
+    background: none;
+    margin-right: 0.4rem;
+}
+
+.follow-btn { 
+ color: rgb(56, 102, 202);   
+}
+
+.all-btn {
+   padding: 0.5rem ;  
+   background: none;
+   border: 1px solid rgb(98, 195, 207);
+   color: rgb(98, 195, 207);
+  margin-top: 0.5rem; 
+  margin-left: 1rem;
+    padding: 0.4rem 1rem;
+    width: 9rem;
+    border-radius: 20px 20px;
+    margin-bottom: 1.5rem;
+}
+
+.all-btn:hover {
+    cursor: pointer;
+    background: rgb(235, 244, 245);
+}
+
+
+.background-div {
+height: 122vh;
+}
+
+.background-heading {
+    padding: 1rem 1rem;
+}
+
+.summary
+{
+    display: flex;
+    padding: 1rem 1rem 0.1rem 1rem;
+}
+
+
+
+.summary-text {
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+}
+
+.summary-text p:last-child {
+    padding-top: 0.3rem;
+    font-size: 0.82rem;
+}
+
+.summary .star {
+    font-size: 1.5rem;
+}
+
+.summary .bulb, .experience, .book, .school {
+    margin-top: 0.4rem;
+    /* color: black; */
+}
+
+.youtube-img {
+    width: 4rem;
+    height: 1rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+
+
+.microsoft-img {
+    width: 5rem;
+    height: 2rem;
+    margin-left: 17.5rem;
+    margin-top: 2rem;
+}
+
+/*
+.micro-link {
+    color: rgb(98, 195, 207);
+    padding-bottom: 0.8rem;
+}
+*/
+
+.tech, .social{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.tech p {
+margin-right: 0.6rem;
+background: rgb(196, 196, 196);
+padding: 0.5rem;
+font-size: small;
+}
+
+.tech p:last-of-type {
+    visibility: hidden;
+}
+
+.skills-img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+}
+
+.round-2 {
+    visibility: hidden;
+}
+
+.round {
+    padding: 0.4rem 0.4rem;
+    border-radius: 50%;
+    border: 1.5px solid rgb(168, 168, 168);
+    color: rgb(168, 168, 168);
+    margin-right: 1.5rem;
+}
+
+.round-1 {
+    padding: 0.4rem 0.4rem;
+    border-radius: 50%;
+    /* border: 1.5px solid rgb(168, 168, 168); */
+    background-color: rgb(219, 219, 219);
+    margin-right: 1.5rem;
+    font-size: small;
+}
+
+.posts-a-btn:hover {
+    cursor: pointer;
+background: whitesmoke;
+border: 1px solid black;
+color: black;
+}
+
+.img-a:hover {
+    cursor: pointer;
+}
+
+.img-a a:nth-child(1):hover {
+    text-decoration: underline;
+}
+
+
+.social {
+    margin-top: 1rem;
+}
+
+.social p:nth-child(2) {
+    margin-right: 7.5rem;
+    margin-top: 0.5rem;
+}
+
+.education-text {
+
+}
+
+.education-text p:nth-child(6), .experience-text p:nth-child(7) {
+    visibility: hidden;
+}
+
+.education-text p:nth-child(1), .education-text p:nth-child(4), .experience-text p:nth-child(1), .experience-text p:nth-child(4)  {
+    font-size: smaller;
+    color: rgb(201, 201, 201);
+    margin-top: 0.6rem;
+}
+
+
+.education-text a, .experience-text a {
+    color: rgb(98, 195, 207);
+}
+.dev {
+    display: flex;
+}
+

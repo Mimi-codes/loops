@@ -1,0 +1,280 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif ;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 300vh; */
+}
+
+/*
+body {
+  height: 200vh;
+  background-color: powderblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+/* nav */
+.apple-page {
+  /* height: 100rem; */
+  /* width: 80rem; */
+  background-color: white;
+}
+
+#nav {
+  display: flex;
+  margin: 0 19%;
+}
+
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+
+#nav-link {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-top: 0.8rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: rgb(182, 177, 177);
+  font-size: 0.9rem;
+}
+
+li:nth-of-type(1) {
+  /* margin: 1rem 0 0 12%; */
+margin-left: 100%;
+}
+
+li:hover {
+  cursor: pointer;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+input {
+  border: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+/*
+input:focus {
+border-bottom: 1px solid black;  
+}
+*/
+
+input:hover {
+  cursor: pointer;
+}
+
+/* herosection */
+/* freedom */
+#freedom {
+  display: flex;
+  margin: 0 16% 3% 16%;
+}
+
+.calls {
+  flex: 3;
+  margin: 0 13% 0 4%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+.watch {
+  flex: 1;
+}
+
+.watch-img {
+width: 300px;
+height: 350px;
+object-position:  25%;
+}
+
+.btn-watch {
+  border: none;
+  padding: 0.5rem 1rem;
+  background: rgb(196, 58, 64);
+  color: white;
+  margin-top: 2rem;
+}
+
+.btn-watch:hover, .btn-buy:hover, .btn-explore:hover {
+  cursor: pointer;
+  background: rgb(173, 61, 66);
+}
+
+.calls h4 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.calls p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  border-left: 2px solid rgb(177, 173, 173);
+  padding-left: 1.5rem;
+  text-align: justify;
+}
+
+/* run */
+#runs {
+  display: flex;
+  margin: 2% 16% 0 16%;
+}
+
+.know, .good, .just {
+  flex: 33.3%;
+  margin: 0 4%;
+  text-align: justify;
+}
+
+.know h4, .good h4, .just h4 {
+  font-size: 1rem;
+}
+
+.know p, .good p, .just p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+#dots {
+  color: rgb(187, 182, 182);
+  display: flex;
+}
+
+#dots p {
+  margin: 0 0.3rem;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 2px;
+  width: 42px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 55%;
+  left: 0;
+  
+}
+
+.rule {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  position: relative;
+  color:  rgb(196, 58, 64);
+}
+
+.rule:hover {
+  cursor: pointer;
+}
+
+.more {
+  font-size: 0.8rem;
+  margin-left: 2.5rem;
+  font-weight: 600;
+ }
+
+
+/* sport band */
+#sport-band {
+  display: flex;
+  margin: 4% 16% 0 16%;
+}
+
+.band {
+  flex: 3;
+  margin: 8% 4% 0 4%;
+}
+
+.band h4 {
+text-transform: capitalize;
+font-size: 2rem;
+font-weight: 800;
+padding-right: 2rem;
+}
+
+.band p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  border-left: 2px solid rgb(177, 173, 173);
+  padding-left: 1.5rem;
+  margin-right: 2rem;
+
+}
+
+.band-img {
+width: 300px;
+height: 500px;
+flex: 1;
+}
+
+.btn-buy {
+  border: none;
+  padding: 0.5rem 1rem;
+  background: rgb(196, 58, 64);
+  color: white;
+  margin-top: 2rem;
+}
+
+
+/* health */
+#control {
+  background-image: url(../img/runners.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  color: white;
+padding: 0 9rem 0 52rem;
+margin-top: 2%;
+background-position: center center;
+  overflow-y: hidden;
+}
+
+.health-control {
+   flex: 3;
+   padding-top: 36%;
+   padding-bottom: 48%;
+
+}
+
+.health-control h4{
+  font-weight: 800;
+  font-size: 2rem;
+  /* text-align: end; */
+}
+
+.health-control p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding: 0 3rem 0  1.5rem;
+  border-left: 2px solid rgb(177, 173, 173);
+  text-align: justify;
+ 
+}
+
+.btn-explore {
+  border: none;
+  padding: 0.5rem 1rem;
+  background: rgb(196, 58, 64);
+  color: white;
+  margin-top: 2rem;
+}
