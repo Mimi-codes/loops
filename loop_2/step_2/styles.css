@@ -29,7 +29,7 @@ body {
 
 
 .bg {
-  background: yellow;
+  background: #fcea49;
    height: 84vh;
   width: 28vw;
   padding-bottom: 2rem;
@@ -41,7 +41,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   padding-bottom: 1.5rem;
-  color: #535353;
+  color: #585228;
 }
 
 .foot:nth-of-type(1) {
@@ -120,8 +120,9 @@ img {
   row-gap: 10px;
 }
 .user {
-  color: #838083;
+  color: #a0a0a4;
   font-size: 10px;
+  font-weight: 700;
 }
 .person {
   display: flex;
@@ -161,6 +162,10 @@ input {
 
 .bio:focus {
   outline: none;
+}
+
+input.username {
+  color: #72767c;
 }
 
 input:focus {

@@ -17,20 +17,24 @@ body {
   justify-content: center;
   align-items: center;
   background-color: black;
+  overflow: hidden;
 }
 .container {
   height: 48rem;
   width: 75rem;
-  background-color: #de8a89;
+  background-color: #d87f7d;
   margin-top: 5rem;
 }
 .materials {
   margin-top: 6rem;
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 600;
   text-align: end;
-  word-spacing: 2rem;
+  word-spacing: 1.3rem;
 }
+
+
+
 .white {
   color: white;
 }
@@ -89,7 +93,7 @@ h3 {
   width: 5rem;
   margin-left: 10rem;
   margin-top: 2rem;
-  background-color: #ecb9b8;
+  background-color: #e9afb0;
   cursor: pointer;
 }
 .triangle1 {
@@ -110,7 +114,7 @@ h3 {
   background-color: black;
   margin-left: 50rem;
   margin-top: 2rem;
-  background-color: #ecb9b8;
+  background-color: #e9afb0;
   cursor: pointer;
 }
 .triangle2 {
@@ -121,9 +125,11 @@ h3 {
   border-bottom: 0.5rem solid transparent;
   border-left: 0.5rem solid grey;
 }
+
+
 .start {
   position: absolute;
-  height: 3rem;
+  height: 4rem;
   width: 12rem;
   background-color: black;
   display: flex;
@@ -133,11 +139,31 @@ h3 {
   margin-left: 1rem;
   cursor: pointer;
   border-radius: 4px;
-  -moz-transition: all 2s ease;
-  -ms-transition: all 2s ease;
-  transition: all 1s ease;
+  /* -moz-transition: all 2s ease; */
+  /* -ms-transition: all 2s ease; */
+  /* transition: all 1s ease; */
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  /* position: relative; */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
 }
 
+
+.start:hover, .start:focus, .start:active {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+
+
+/*
 .start:hover {  
   transform: scale(0.8);
 }
+*/
+
