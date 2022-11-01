@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   /* height: 300vh; */
+  overflow-x: hidden;
 }
 
 body {
@@ -48,7 +49,7 @@ li {
   margin-top: 0.8rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  color: rgb(182, 177, 177);
+  color: #b0afb0;
   font-size: 0.9rem;
 }
 
@@ -60,7 +61,7 @@ margin-left: 100%;
 li:hover {
   cursor: pointer;
   color: black;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #b0aeb0;
 }
 
 input {
@@ -69,7 +70,7 @@ input {
   border-left: none;
   border-right: none;
   outline: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dad9da;
 }
 
 /*
@@ -87,37 +88,54 @@ input:hover {
 #freedom {
   display: flex;
   margin: 0 16% 3% 16%;
+  /* border-bottom: 1px solid green; */
+  
 }
+
+
+.line {
+  background: #000;
+}
+
 
 .calls {
   flex: 3;
-  margin: 0 13% 0 4%;
+  margin: 0 3% 0 4%;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
+.rule {
+  height: 0;
+  color: blue transparent;
+}
 
 .watch {
   flex: 1;
 }
 
 .watch-img {
-width: 300px;
-height: 350px;
+width: 490px;
+height: 450px;
 object-position:  25%;
+position:relative; 
+left:460px; top:2px; 
 }
 
 .btn-watch {
   border: none;
   padding: 0.5rem 1rem;
-  background: rgb(196, 58, 64);
+  background: #e75954;
   color: white;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
+
+
+
 
 .btn-watch:hover, .btn-buy:hover, .btn-explore:hover {
   cursor: pointer;
-  background: rgb(173, 61, 66);
+  background: #d9514d;
 }
 
 .calls h4 {
@@ -126,6 +144,7 @@ object-position:  25%;
 }
 
 .calls p {
+  color: #b4b3b4;
   font-size: 0.8rem;
   line-height: 1.5rem;
   border-left: 2px solid rgb(177, 173, 173);
@@ -169,10 +188,10 @@ object-position:  25%;
   content:" ";
   height: 2px;
   width: 42px;
-  background: red;
+  background:  #d75051;
   display: block;
   position: absolute;
-  top: 55%;
+  top: 109%;
   left: 0;
 }
 
@@ -180,13 +199,14 @@ object-position:  25%;
   text-decoration: none;
   padding: 0.5rem 1rem;
   position: relative;
-  color:  rgb(196, 58, 64);
-  transition: all .2s ease-in-out;
+  color:   #d75051;
+  /* transition: all .2s ease-in-out; */
 }
 
 .rule:hover {
+  -webkit-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
   cursor: pointer;
-  transform: scale(1.1); 
 }
 
 .more {
@@ -194,6 +214,7 @@ object-position:  25%;
   margin-left: 2.5rem;
   font-weight: 600;
   transition: width 2s;
+  color: #fd8992;
 }
 
 
@@ -234,7 +255,7 @@ flex: 1;
 .btn-buy {
   border: none;
   padding: 0.5rem 1rem;
-  background: rgb(196, 58, 64);
+  background: #e75954;
   color: white;
   
   margin-top: 2rem;
@@ -283,7 +304,7 @@ background-position: center center;
 .btn-explore {
   border: none;
   padding: 0.5rem 1rem;
-  background: rgb(196, 58, 64);
+  background: #e75954;
   color: white;
   margin-top: 2rem;
 }

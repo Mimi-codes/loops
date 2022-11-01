@@ -13,7 +13,7 @@ body {
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #f7cd75;
+  background-color: #f5c66b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,14 +55,14 @@ header {
 .v-car {
   display: flex;
   flex-direction: column;
-  border: 2px solid blue;
+  border: 2px solid #7e87bf;
   background-color: white;
   margin: 2.5rem;
   padding: 0 0 1rem 1rem;
   border-radius: 5px;
 }
 .v-card:hover {
-  border-color: blue;
+  border-color: #7e87bf;
 }
 .cards {
   height: 4rem;
@@ -111,16 +111,16 @@ flex: 33.3%;
 margin-left: 8%;
 }
 .phone-desc {
-  color: silver;
+  color: #aeacae;
   font-size: small;
 }
 .price {
   padding-top: 1rem;
-  color: #2196f3;
+  color: #7e8cc3;
   font-weight: 2rem bold;
 }
 .prices {
   padding-top: 1rem;
-  color: #84c657;
+  color: #83c758;
   font-weight: 2rem bold;
 }

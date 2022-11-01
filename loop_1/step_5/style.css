@@ -25,7 +25,7 @@ body {
 
 .container {
   width: 23rem;
-  height: 25rem;
+  height: 24rem;
   background-color: white;
   padding: 1rem;
   border-radius: 1%;
@@ -42,13 +42,15 @@ body {
 .country-code {
   color: var(--my-blue);
   font-weight: 900;
-  font-family: Prompt, sans-serif;
+  font-family: Roboto, sans-serif;
+  color: #3b8acf;
+  font-size: 3rem;
 }
 .spacer {
   height: 0.3rem;
-  width: 2rem;
-  background-color: #d3e6f4;
-  margin-top: 3.5rem;
+  width: 1.8rem;
+  background-color: #d3e6f4 ;
+  margin-top: 4.5rem;
 }
 
 .destination {
@@ -57,7 +59,7 @@ body {
 }
 .flight-details {
   display: flex;
-  margin-top: 5rem;
+  margin-top: 4rem;
   column-gap: 3.5rem;
   padding-bottom: 1rem;
   margin-left: 1rem;
@@ -68,17 +70,24 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
+
+.detail:nth-child(3) {
+  margin-left: 1.2rem;
+}
+
 .header, .text {
   font-weight: 600;
 }
 .number {
   font-weight: 600;
+  color: #2f3133;
 }
 
 .bottom-div {
   display: flex;
   justify-content: space-between;
   column-gap: 1;
+  margin-top: 0.5rem;
 }
 div > p {
   margin: 0;
@@ -86,22 +95,36 @@ div > p {
 }
 .passenger-info {
   display: grid;
-  margin: 1rem;
 }
+
+.info {
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+.info p:nth-child(2) {
+  color: #2f3133;
+  font-size: 1rem;
+}
+
 img {
-  height: 12rem;
+  height: 8rem;
   width: 8rem;
   margin-right: 2rem;
 }
 .text {
-  color: #b4b4b4;
+  color: #cacccf;
   font-size: 12px;
 }
 .country-name {
-  color: #b4b4b4;
+  color: #c0bfbf;
   font-size: 12px;
   font-weight: 500;
 }
+
+.arm  {
+  margin-left: 2rem;
+}
+
 .header {
   color: #b4b4b4;
   font-size: 12px;

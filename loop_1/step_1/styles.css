@@ -4,108 +4,97 @@
     box-sizing: border-box;
 }
 
+
 body {
-    background-image: url(./img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.content {
-    margin: 10% auto;
-    width: 25%;
-    background: white;
+    color: #4d67d1;
+    background: #7a9bcf;
     font-family: Roboto, sans-serif;
-    border-radius: 2%;
+    overflow-y: hidden;
 }
 
-#dots {
-    padding-top: 4%;
-    color: gray;
+
+#items {
     display: flex;
-    justify-content: center;
+background: white;
+margin: 10% auto;
+width: 60%;
+border-radius: 5px;
 }
 
-#dots p:nth-of-type(3), #dots p:nth-of-type(2){
-    color: rgb(194, 192, 192);
+.mobile, .desktop, .tv {
+margin: 2%;
+flex: 33.3%;
+padding: 5% 2%;
+    justify-content: space-around;
 }
 
-.payment {
-    text-transform: uppercase;
-    text-align: center;
-    padding: 4% 0 8% 0;
+ .mobile-img, .desktop-img, .tv-img {
+    margin:  auto;
+    display: block;
+    height: 40%;
+    width: 40%;
 }
 
-#visa,#mastercard,  #maestro {
-    display: flex;
-    padding: 2% 4%;
-   }
 
-#mastercard  {
-display: flex;
-}
-
-#mastercard .text {
-flex: 2;
-}
-
-.visa-img, .mastercard-img, .maestro-img {
-    width: 20%;
+#items h3 {
+text-transform: uppercase;
+padding: 2rem 0 1rem 0;
+text-align: center;
 }
 
 .text {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 5% 6%;
+ text-align: center;
+color: #b8acaa; 
+font-size: small;  
 }
 
 
-
-.text:last-child {
-    color: gray;
+.price {
+margin: 10% 0 1% 0; 
+text-align: center;  
+font-weight: 600;
 }
 
-#cta {
-    display: flex;
-    width: 100%; 
-    background: #5180d8;
+.num {
+    margin-left: 0.6rem;
+    font-size: 2.5rem;
+    margin-right: 0.2rem;
 }
 
-.btn {
-    border: none;
-    margin: 0 auto;
-    text-transform: uppercase;
-    padding: 5% 0;
-    background: #4267b2;
-    color: white;
-}
-
-.arrow-img {
+.doll {
     position: absolute;
-    top: 1;
-    width: 1.2%;
+    top: 69%;
+    font-size: medium;
 }
 
-
-
-#visa:hover, #mastercard:hover, #maestro:hover {
-cursor: pointer;
-background: rgb(223, 217, 217);
-
+.dollar {
+    position: absolute;
+    top: 71%;
+    font-size: medium;
 }
 
+.mon {
+    font-size: small;
+    position: absolute;
+    top: 71%;
+}
 
-.btn:hover {
+.month {
+    font-size: small;
+    position: absolute;
+    top: 73.5%;
+}
+
+.mobile:hover, .desktop:hover, .tv:hover {
     cursor: pointer;
+    background: #f7f5f7;
+    border-radius: 5px;
 }
 
-
-@media only screen and (max-width:480px) {
-    .content {
-        width: 75%
+@media only screen and (max-width: 480px) {
+    #items {
+        display: block;
+        width: 80%;
     }
-
-    .arrow {
-        display: none;
-    }
-}
+    
+} 

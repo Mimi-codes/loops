@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 50rem;
+  width: 52rem;
   height: 30rem;
   background-color: white;
   display: grid;
@@ -80,19 +80,21 @@ padding: 0.5rem 1rem;
 .sign-in {
   display: flex;
   column-gap: 9rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   padding-left: 1rem;
   border: 1px solid whitesmoke;
   margin-top: 1rem ;
   border-radius: 0.2rem;
+  width: 27rem;
 }
 
 .sign-in:hover {
   cursor: pointer;
   box-shadow: 0 2px 3px 0.5px #ececec;
   /* box-shadow: 0 0 0.25em 0.2px #ececec; */
-outline: none;
+  outline: none;
+  color: #ffffff;
 }
 
 .sign-in h3:hover {
@@ -104,7 +106,7 @@ outline: none;
   display: flex;
   flex-direction: column;
   line-height: 5px;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 
 }
 img {
@@ -118,11 +120,11 @@ img {
   color: #aaaaaa;
 }
 .header {
-  margin-bottom: 1.5rem;
-  font-size: 45px;
+  margin-bottom: 0.8rem;
+  font-size: 38px;
 }
 .sign {
-  margin-top: 4rem;
+  margin-top: 1.5rem;
   font-size: 12px;
   cursor: pointer;
   display: flex;
@@ -130,13 +132,15 @@ img {
 
 .footer {
 font-weight: 500;
+color: #0a0c12;
 }
 
 .email {
   text-transform: uppercase;
-  color: var(--text-color);
-  font-weight: 500;
+  color: #625e60;
+  font-weight: 700;
   font-size: smaller;
+  margin-right: 0.2rem;
 }
 
 .email:hover {
@@ -150,3 +154,8 @@ font-weight: 500;
   background-color: transparent;
 }
 
+
+.rule {
+  width: 26rem;
+  margin-top: 4rem;
+}

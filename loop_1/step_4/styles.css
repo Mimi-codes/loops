@@ -1,0 +1,267 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --background: #aac0d6;
+  --main: white;
+  --header: #618bd4;
+  --text: #00071c;
+  --send-box: #e4ebf6;
+  --receive-box: #f1eff1;
+  --comment: #f1eff1;
+  --send:  #5d7ec0;
+--time: #adb1b7;
+--blocked: #ffb9bb;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--background);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 75vh;
+  width: 30vw;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 7rem;
+}
+.chat-box {
+  margin-left: -2rem;
+  background-color: var(--header);
+  height: 4rem;
+  width: 25.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  color: var(--text);
+  /* margin-top: 1.5rem; */
+  margin-left: 6px;
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: var(--comment);
+  margin: 1.5rem 0.4rem 0rem 1.6rem;
+  border-radius: 50%;
+}
+
+.chat-box p {
+  color: var(--comment);
+  margin-top: 1.2rem;
+  font-weight: 600;
+}
+
+img {
+  margin-right: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 1.5rem;
+  width: 1.1rem;
+  margin-left: 10rem;
+  margin-top: 0.8rem;
+  filter: brightness(0) invert(1);
+  color: var(--time);
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.duration {
+  text-transform: uppercase;
+  color: #dde1e4;
+  font-size: 15px;
+}
+.line {
+  height: 2px;
+  width: 9rem;
+  background-color: #dde1e4;
+}
+.time {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  width: auto;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.dur {
+  margin-left: 19.5rem;
+  color: var(--time);
+  font-weight: 400;
+}
+
+.dura {
+  color: var(--time);
+  font-weight: 400;
+}
+
+.user {
+  background-color: #ffb9bb;
+  margin-left: 10.5rem;
+  margin-bottom: 0.5rem;
+  height: 2.5rem;
+  width: 11.5rem;
+  color: var(--text);
+  font-size: 13px;
+  padding: 0.01rem 0.4rem;
+  padding: 0;
+  font-weight: 500;
+  border-radius: 0 0.2rem 0.2rem 0.2rem;
+}
+
+.rule {
+  width: 22rem;
+  color: #d9d8da;
+}
+
+form {
+  cursor: pointer;
+ padding-bottom: 2rem;
+}
+
+input {
+  border: none;
+  font-weight: 700; 
+}
+
+input ::placeholder {
+  color: #000307;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+button {
+  cursor: pointer;
+  background-color: white;
+  color: #6a96d8;
+  /* margin-left: 6.5rem; */
+  /* margin-top: 1.1rem; */
+  position: absolute;
+  left: 59.5%;
+  border: none;
+  font-weight: 800;
+}
+
+
+
+.talk-bubble {
+  margin: 0.4rem 0.4rem 0.8rem 0rem;
+  position: relative;
+	width: 16.5rem;
+	height: 4rem;
+	background-color: var(--send-box);
+  color: var(--text);
+  border-radius: 0.2rem;
+  font-size: 13px;
+  padding: 0.01rem 0.5rem;
+  font-weight: 500;
+}
+
+
+.talk-bubble-1 {
+	margin: 0.4rem 0.4rem 0.8rem 5.5rem;
+  position: relative;
+	width: 16.5rem;
+	height: 4rem;
+	background-color: var(--receive-box);
+  color: var(--text);
+  border-radius: 0.2rem;
+  font-size: 13px;
+  padding: 0.01rem 0.5rem;
+  font-weight: 500;
+}
+
+.talk-bubble-2 {
+  margin: 0.4rem 0.4rem 0.4rem 0rem;
+  position: relative;
+	width: 6rem;
+	height: 4rem;
+	background-color: var(--send-box);
+  color: var(--text);
+  border-radius: 0.2rem;
+  font-size: 13px;
+  padding: 0.01rem 0.5rem;
+  font-weight: 500;
+}
+
+
+
+/* Right triangle placed top left flush. */
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: -2px;
+	bottom: auto;
+	border: 2px solid;
+	border-color: var(--send-box) transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -6px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: var(--send-box) transparent transparent transparent;
+}
+
+
+/* Right triangle placed top right flush. */
+.tri-right.border.right-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -40px;
+  top: -8px;
+	bottom: auto;
+	border: 8px solid;
+	border-color:  var(--receive-box) transparent transparent transparent;
+}
+.tri-right.right-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -8px;
+  top: 0px;
+	bottom: auto;
+	border: 8px solid;
+	border-color: var(--receive-box) transparent transparent transparent;
+}

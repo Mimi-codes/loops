@@ -13,7 +13,7 @@ body {
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #f2ce97;
+  background-color:  #f2ce97;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +25,8 @@ body {
   width: 50rem;
   display: grid;
   grid-template-columns: 40% 1fr;
+  
+  box-shadow: 0.2em 0.6em 0.8em #cdae86;
 }
 
 .write-up {
@@ -33,14 +35,19 @@ body {
   flex-direction: column;
   padding: 1.5rem 0rem 0.5rem 2rem;
 }
+
+.cover { 
+  background: #484956;
+}
+
 .topic > p {
   color: white;
   font-size: 23px;
   font-weight: 700;
 }
 .topic > span {
-  color: rgb(197, 193, 193);
-  font-size: 26px;
+  color: #c7c7cb;
+  font-size: 24px;
 }
 p,
 span {
@@ -51,7 +58,7 @@ span {
   content: "";
   height: 0.2rem;
   width: 3.5rem;
-  background-color: #e37b62;
+  background-color: #de7962;
   margin-top: 2rem;
 }
 .author {
@@ -67,24 +74,24 @@ img {
   margin-right: 0.5rem;
 }
 .name {
-  color: rgb(197, 193, 193);
+  color: #89909b;
 }
 .p-first {
   margin: 0 auto;
   line-height: 1.5rem;
   padding: 3rem 2rem 2rem;
-  color: rgb(73, 71, 71);
+  color: #656972;
 }
 .p-first::first-letter {
   font-size: 30px;
   font-weight: 700;
-  color: black;
+  color: #0e0e0e;
 }
 .p-second {
   margin-top: -3.5rem;
   line-height: 1.5rem;
   padding: 3rem 2rem 0.8rem;
-  color: rgb(73, 71, 71);
+  color: #656972;
 }
 .date {
   display: flex;
@@ -97,17 +104,25 @@ img {
 }
 
 .comment span:nth-of-type(1) {
-  color: rgb(73, 71, 71);
+  color: #989195;
+  font-size: 0.9rem;
 }
 
 .icon {
   height: 20px;
   width: 20px;
+  margin-right: 2rem;
 }
 .more {
   height: 20px;
-  width: 20px;
+  width: 24px;
 }
+
+
 .no {
-  color: #bebcbc;
+  color: #989195;
+  position:absolute; 
+  left: 72.5%;
+  top:81%;
+  font-size: smaller;
 }
