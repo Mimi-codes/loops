@@ -5,13 +5,13 @@
 }
 
 body {
-    background: rgb(121, 179, 218);
+    background:#78accd;
     font-family: Roboto, sans-serif;
 overflow-y: hidden;
 }
 
 #calendar {
-    margin: 15% auto;
+    margin: 10% auto;
     width: 25%;
     background: white;
     /* padding: 1rem; */
@@ -20,7 +20,7 @@ overflow-y: hidden;
 .header {
     display: flex;
     justify-content: space-between;
-    color: rgb(173, 173, 173);
+    color: #8e8d8f;
     /* padding-bottom: 0.3rem; */
     padding: 1rem;
 }
@@ -32,7 +32,7 @@ overflow-y: hidden;
 .days {
     display: flex;
     font-weight: 600;
-    color: rgb(143, 143, 143);
+    color: #838383;
     justify-content: space-between;
 }
 
@@ -49,7 +49,7 @@ overflow-y: hidden;
 }
 
 .a p:nth-child(1), .a p:nth-child(2), .a p:nth-child(3), .a p:nth-child(4) {
-    color: rgb(221, 218, 218);
+    color: #a7afb5;
     font-size: 0.6rem;
 }
 
@@ -63,26 +63,26 @@ overflow-y: hidden;
 
 #cal-footer p:nth-child(2) {
     border-radius: 50%;
-    border: 2px solid rgb(201, 130, 0);
+    border: 2px solid #edb09b;
     padding: 0.3rem 0.6rem;
 }
 
 .b p:nth-child(4) {
     border-radius: 50%;
-    background: rgb(201, 130, 0);
+    background: #de6e46;
     padding: 0.2rem 0.5rem;
 color: white;
 }
 
 .c p:nth-child(6) {
     border-radius: 50%;
-    border: 2px solid rgb(201, 130, 0);
+    border: 2px solid#edaf98;
     padding: 0.3rem 0.3rem;
 }
 
 .d p:nth-child(2) {
     border-radius: 50%;
-    border: 2px solid rgb(175, 18, 175);
+    border: 2px solid #d4a6c0;
     padding: 0.3rem 0.3rem;
 }
 
@@ -90,21 +90,21 @@ color: white;
 .c .super {
 color: white;
 border-radius: 50%;
-background: rgb(201, 130, 0);
+background: #df7450;
 padding: 0.02rem 0.17rem;
 font-size: 0.7rem;
 position: absolute;
-top: 62.5%;
+top: 51.8%;
 }
 
 .d .super-1 {
     color: white;
     border-radius: 50%;
-    background: rgb(141, 0, 141);
+    background: #bc769d;
     padding: 0.02rem 0.17rem;
     font-size: 0.7rem;
     position: absolute;
-    top: 71.3%;
+    top: 60.7%;
     }
 
     hr {

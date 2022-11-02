@@ -15,11 +15,12 @@
     background-origin: content-box;
     background-position: center center;
     background-repeat: no-repeat;
+    overflow: hidden;
   }
   
   .wrap {
     display: flex;
-   background: linear-gradient(100deg, transparent 65%, rgb(255, 217, 0) calc(50%));
+   background: linear-gradient(100deg, transparent 65%, #f2cb46 calc(50%));
     /* margin: 0 0 2rem; */
     height: 100%;
     opacity: 0.8;
@@ -56,6 +57,7 @@
     font-size: medium;
     margin-right: 0.2rem;
     margin-left: 75.5rem;
+    font-weight: 500;
 }
 
 .more-img {
@@ -89,7 +91,10 @@
 
 .view-img {
     width: 1rem;
-    margin-right: 0.3rem;
+    /* margin-right: 0.3rem; */
+    left: 92.5%;
+    position: absolute;
+    top: 95.4%;
 }
 
 .view span {

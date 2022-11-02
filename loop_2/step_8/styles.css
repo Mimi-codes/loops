@@ -5,40 +5,62 @@
 font-family: Roboto, sans-serif;
 }
 
-#phone {
-    margin: 5% auto;
-    width: 20%;
-    background: #000;
-    border-radius: 1.5rem;
-    height: 75vh;
-    padding: 1.2rem 0.4rem 0.1rem 0.4rem;
-    /* box-shadow: 0 0.02em 0.01em 0.21em rgb(136, 133, 133); */
+.mobile {
+    margin: 12% auto;
+    width: 35%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 90vh;
+    background: black;
+    border-radius: 30px;
+    /* padding: 10px; */
+    padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+}
+.phone-mirror {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background-color: white;
+    /* border-radius: 30px; */
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.topWrapper {
+    position: relative;
+    width: 13rem;
+    height: 1.2rem;
+    margin: 0px auto 0 auto;
+    float: left;
+    left: 15%;
+    background-color: black;
+    border-radius: 0 0 0.5rem 0.5rem;
+    /* border-radius: 1rem; */
 }
 
-.phone-margin {
-    /* margin: 0 0.8rem 0.1rem 0.8rem; */
-    background: white;
- height: 71vh; 
- border-radius: 1.5rem;
-
-}
 
 #linear-gradient {
-       background: linear-gradient(32deg, transparent 65%, rgb(89, 133, 214) calc(50%));
+       background: linear-gradient(30deg, transparent 65%, #4b7cf4 calc(50%));
         /* margin: 0 0 2rem; */
         /* height: 1%; */
-        border-radius: 1.5rem;
+        border-radius: 1rem;
     
 }
 
 .phone-body {
-    padding: 1rem 0.4rem;
+    padding: 1rem 0.5rem;
 }
 
 .phone-body h4 {
     color: white;
     text-align: center;
-    padding-top: 0.3rem;
+    padding-top: 1.3rem;
 }
 
 .card-img {
@@ -55,39 +77,50 @@ font-family: Roboto, sans-serif;
     justify-content: space-between;
 }
 
+.b {
+    color: #a2a0a1;
+}
+
 .items-content {
     display: flex;
-    padding-top: 1rem;
+    padding-top: 1.8rem;
 }
 
 .lock-img {
     padding-right: 0.6rem;
     padding-left: 0.3rem;
-    width: 1.8rem;
+    width: 2.2rem;
     font-weight: 700;
 }
+
 
 .toggle-button {
        height: 40px;
   /* margin: auto; */
   text-align: center;
-  color: blue;
-  padding: 0.8rem;
+  /* color: blue; */
+  padding: 1.8rem 0.8rem 0.8rem 0.8rem;
 }
+
 
 .switch {
     display: inline-block;
     font-size: 20px; /* 1 */
     height: 1em;
     width: 2em;
-    background: blue;
+    background: #4979ef;
+    /* background: white; */
     border-radius: 1em;
   }
 .switch input {
     position: absolute;
     opacity: 0;
     }
+    
 
+.switch div:hover {
+    cursor: pointer;
+}
   
 .switch div {
     height: 1em;
@@ -104,8 +137,15 @@ font-family: Roboto, sans-serif;
     -webkit-transform: translate3d(100%, 0, 0);
        -moz-transform: translate3d(100%, 0, 0);
             transform: translate3d(100%, 0, 0);
+   }
+
+   .switch:checked {
+    background: white;
   
-        }
+   }
+
+   */
+
 
         .a p:nth-child(1) {
             font-weight: 600;
